@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './index.css';
-import Home from './screens/Home';
+import RoutesComidaEmCasa from './navigation/RoutesComidaEmCasa';
 
 function App() {
   return (
-    <Home/>
+    <>
+      <RoutesComidaEmCasa/>
+    </>
   );
 }
 
