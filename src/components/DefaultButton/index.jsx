@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 const DefaultButton = ({ value, to }) => {
+  const styleButton = "px-4 py-2 rouded rounded bg-indigo-500 text-white"
+
   return (
     <div>
-      <Link to={to}>
-        <button className="px-4 py-2 rouded rounded-sm bg-indigo-500 text-white"> {value} </button>
-      </Link>
+      {to ? <Link to={to}>
+        <button className={styleButton}> {value} </button>
+      </Link> : <button className={styleButton}> {value} </button>}
     </div>
 
   )
