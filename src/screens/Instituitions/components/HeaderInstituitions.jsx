@@ -9,7 +9,7 @@ const HeaderInstituitions = () => {
 
         <div>
           <div className='px-1'>
-            <h1 className='text-5xl text-bold text-cente text-center'>Uma doação tranforma <br />várias vidas</h1>
+            <h1 className='text-5xl text-bold text-cente text-center font-forum'>Uma doação tranforma <br />diversas vidas</h1>
           </div>
           <img className='m-auto w-8/12' src={PeploStudying} alt="" srcset="" />
           <div className='flex justify-center mt-5'>

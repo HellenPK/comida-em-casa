@@ -1,10 +1,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-    fontFamily: {
-      'sans': ['ui-sans-serif', 'system-ui'],
-      'serif': ['ui-serif', 'Georgia'],
-    }
+    extend: {
+      fontFamily: {
+        forum: "'Forum', cursive",
+        dm: "'DM Sans', sans-serif"
+      },
+    },
   },
   plugins: [],
 }

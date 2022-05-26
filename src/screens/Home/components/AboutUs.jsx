@@ -13,11 +13,11 @@ const AboutUs = () => {
           <div className='grid gap-8 mx-auto md:w-3/4'>
 
             <div>
-              <h2 className='text-4xl serif text-indigo-500'>Quem somos ?</h2>
+              <h2 className='text-4xl serif text-indigo-500 font-forum'>Quem somos ?</h2>
               <div className='w-3/12 my-5 border-b-4 border-indigo-500'></div>
             </div>
-            <p className='text-xl text-slate-500'>Lorem ipsum dolor sit amet. Sed ducimus repellat non numquam laborum ea repellendus dolor aut recusandae a necessitatibus quisquam </p>
-            <p className='text-xl text-slate-500'>Lorem ipsum dolor sit amet. Sed ducimus repellat non numquam laborum ea repellendus dolor aut recusandae a necessitatibus quisquam </p>
+            <p className='text-xl text-slate-500 font-dm'>Lorem ipsum dolor sit amet. Sed ducimus repellat non numquam laborum ea repellendus dolor aut recusandae a necessitatibus quisquam </p>
+            <p className='text-xl text-slate-500 font-dm'>Lorem ipsum dolor sit amet. Sed ducimus repellat non numquam laborum ea repellendus dolor aut recusandae a necessitatibus quisquam </p>
             <DefaultButton value="Visualizar ONGs" to='/instituicoes' />
           </div>
         </div>
