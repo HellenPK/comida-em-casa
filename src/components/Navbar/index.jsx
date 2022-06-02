@@ -13,9 +13,9 @@ const Container = ({ children, className }) => {
 const List = () => {
   return(
     <ul className='flex gap-6'>
-      <li className='font-md'>História</li>
-      <li className='font-md'>Doas</li>
-      <li className='font-md'>Contato</li>
+      <li className='font-md cursor-pointer'>História</li>
+      <li className='font-md cursor-pointer'>Doas</li>
+      <li className='font-md cursor-pointer'>Contato</li>
     </ul>
   )
 }
