@@ -1,4 +1,5 @@
-import React, { Children } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Home from '../../assets/icons/home.png'
 
 const Container = ({ children, className }) => {
@@ -18,13 +19,16 @@ const List = () => {
     </ul>
   )
 }
-const Navbar = () => {
+
+const Navbar = ({to}) => {
+  const navigate = useNavigate()
+
   return (
     <>
       <Container className="w-full fixed px-6 py-3 md:py-5 bg-slate-50 shadow-lg">
         <div className='m-auto w-11/12'>
           <div className='flex justify-between'>
-            <div className='flex'>
+            <div className='flex cursor-pointer' onClick={() => to && navigate(to)}>
               <div>
                 <img className='w-10/12' src={Home} alt="" srcset="" />
               </div>

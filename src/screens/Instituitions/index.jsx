@@ -6,7 +6,7 @@ import Instituitions from './components/Instituitions'
 const Institutions = () => {
   return (
     <>
-      <Navbar/>
+      <Navbar to="/"/>
       <HeaderInstituitions/>
       <Instituitions/>
     </>
