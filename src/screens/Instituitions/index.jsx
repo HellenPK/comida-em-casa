@@ -4,12 +4,13 @@ import HeaderInstituitions from './components/HeaderInstituitions'
 import Instituitions from './components/Instituitions'
 
 const Institutions = () => {
+
   return (
-    <>
-      <Navbar to="/"/>
+    <div>
+      <Navbar to="/" />
       <HeaderInstituitions/>
-      <Instituitions/>
-    </>
+      <Instituitions />
+    </div>
   )
 }
 export default Institutions

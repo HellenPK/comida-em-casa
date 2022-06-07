@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PeploStudying from '../../../assets/images/piople-studying.png'
 import DefaultButton from '../../../components/DefaultButton';
 
 const HeaderInstituitions = () => {
+  const ref = useRef(null)
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0
+    });
+  }, [ref]);
+
   return (
-    <div className='px-6'>
+    <div className='px-6' ref={ref}>
       <div className='flex h-screen m-auto w-11/12 md:justify-center items-center'>
 
         <div>
