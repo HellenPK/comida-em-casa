@@ -1,12 +1,15 @@
-import React from 'react';
-import AboutUs from './components/AboutUs';
-import HeaderHome from "./components/HeaderHome"
+import { AboutUs, HeaderHome } from './components';
+import Navbar from '../../components/Navbar';
+import { isAuthenticated } from '../../services/auth';
 
 const Home = () => {
+  console.log(isAuthenticated())
+
   return (
     <div>
-      <HeaderHome/>
-      <AboutUs/>
+      <Navbar />
+      <HeaderHome />
+      <AboutUs />
     </div>
   )
 }

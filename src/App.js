@@ -1,5 +1,5 @@
 import './index.css';
-import RoutesComidaEmCasa from './navigation/RoutesComidaEmCasa';
+import RoutesComidaEmCasa from './navigation/navigation';
 
 function App() {
   return (
